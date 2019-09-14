@@ -1,0 +1,103 @@
+h1 {
+    text-align: center;
+    font-size: 4em;
+    background-color: orange;
+    color: black;
+    padding: 30px;
+}
+body {
+    background-color: black;
+    color: white;
+}
+nav, footer {
+    text-align: center;
+    font-size: 20px;
+}
+nav a {
+    color: white;
+    padding: 20px;
+}
+a:hover {
+    color: lightblue;
+}
+.flex-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.flex-container > div {
+    border: 1px solid red;
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+#lockedImg {
+    display: flex;
+    max-width: 10%;
+    max-height: 300px;
+    margin: 5px;
+}
+#malwareImg {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 220px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 23px;
+}
+#malwareImg > div {
+    display: flex;
+    margin: 50px;
+}
+.tb-row {
+    justify-content: flex-end;
+}
+
+.flexTopten {
+    display: flex;
+    margin: 35px;
+    flex-direction: column;
+}
+.flexTopten > div {
+    display: flex;
+    flex-direction: column;
+    
+}
+#row{
+    margin: 10px; 
+}
+#col {
+    padding: 3px;
+    text-align: center;
+    background-color: pink;
+    color: black;
+    margin: 5px;
+    font-size: 20px;
+}
+table {
+    margin: 0px auto;
+    justify-content: center;
+    width: 85%;
+    font-size: 20px;
+    background-color: white;
+}
+tr:nth-child(even) {
+    color: Orange;
+}
+tr:nth-child(odd) {
+    color: black;
+}
+th, td {
+  text-align: left;
+  padding: 5px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    background-color: white;
+}
