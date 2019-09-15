@@ -1,36 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        
-          <title> </title>
-      
-	<style>
-	html, body{
+    <meta char=”utf-8” />
+<body>    
+    <header> Header </header>
+    <nav> Navigator </nav>
+<main>
+    <article>Article</article>
+    <aside>Aside</aside>
+    <section>Section</section>
+</main>
+    <footer>Footer</footer>
+</body>
+<style>
+html, body{
 	    width: 100%;
 	    height: 100%;
-	}
-	    .inline {
-	        border: double;
-	        display: inline;
-	        color: red;
-	        
-	    }
-	    header {
-	        border: 5px double black;
-	        color: blue;
-	        
-	    }
-	</style>
-	</head>
-	<body>
-	    
-	    
-    <main class="inline">
-	Header
-	    
-	</main>
-	<header> Navigator </header>
-	</body>
-	
-	
+}
+header{
+    border: 3px double black;
+    font-size: 100px;
+    text-align: center;
+}
+
+nav{
+    border: 3px double black;
+    font-size: 100px;
+    text-align: center;
+}
+
+article{
+    border: 3px double black;
+    width: 73%;
+    font-size: 100px;
+    text-align: center;
+    float: left;
+    clear: left;
+}
+aside{
+    border: 3px double black;
+    width: 26%;
+    height: 75%;
+    font-size: 100px;
+    text-align: center;
+    float: right;
+    clear: right;
+}
+section{
+    border: 3px double black;
+    width: 73%;
+    font-size: 100px;
+    text-align: center;
+    
+}
+footer{
+    border: 3px double black;
+    font-size: 100px;
+    width: 73%;
+}
+
+</style>
 </html>

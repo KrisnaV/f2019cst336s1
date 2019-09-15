@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <meta char=”utf-8” />
+    <head>
+        <title>Now You See It</title>
+        <style>
+            .hide{
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <img id="see" src="img/now-you-see-me.png" />
+        <div>
+            <button id = "change">Hide the Cat</button>
+        </div>
+        <script>
+           let seeImage = document.getElementById('see');
+           let changeButton = document.getElementById('change');
+           changeButton.addEventListener('click', function(e){
+               
+           })
+           document
+            .getElementById('moon')
+            .addEventListener('click', function(e){
+                seeImage.setAttribute('class', 'hide');
+            })
+        </script>
+    </body>
+</html>
