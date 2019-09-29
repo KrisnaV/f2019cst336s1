@@ -1,0 +1,16 @@
+
+EventListener with button click:
+
+var btn = document.getElementById("btn");
+
+btn.addEventListener("click", function(){
+    var myRequest = new XMLHttpRequest();
+    myRequest.open('GET', 'url to json'); // to download the json data
+    myRequest.onLoad = function(){
+        var myData = JSON.parse(myRequest.responseText); //to tell the browser to regconize JSON 
+        console.log(myData[0]); //log first object into the console to test the code
+        
+    };
+    myRequest.send();
+});
+

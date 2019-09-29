@@ -1,0 +1,31 @@
+<script src="js/main.js"></script>
+------------------------------------
+Object:
+
+var myObject = {
+    "obj1": "hello",
+    "obj2": "bye"
+}
+------------------------------------
+Array:
+
+var myArr = ["red", "blue"];
+------------------------------------
+Array Object:
+
+var myArray = [
+    {
+        "a1": "apple",
+        "a2": "orange"
+    },
+    {
+        "b1": "pear",
+        "b2": "banana"
+    }
+]
+------------------------------------
+to return the value of the object:
+
+myArray[0].a1 
+// this will return: acb
+------------------------------------
