@@ -14,3 +14,17 @@ btn.addEventListener("click", function(){
     myRequest.send();
 });
 
+$.ajax({
+
+    method: "GET",
+    url: "https://cst336.herokuapp.com/projects/api/promo_products.php",
+    dataType: "json",
+    //data: { },  //data is NOT needed, the end point doesn't use any parameter
+    success: function(result,status) {
+        let index = Math.floor(Math.random() * result.length);
+        $("#product").html(result[index].productName);
+        $("#price").html(result[index].price);
+        $("#qty").val(result[index].qty);
+        calculateTotal();
+    }
+});//ajax

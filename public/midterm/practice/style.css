@@ -1,11 +1,11 @@
 tr, td{
-            border:1px gray solid;
-            text-align: right;
-            padding:5px;
-        }
-        body, th {
-            text-align: center;
-        }
-        table {
-            margin: 0 auto;
-        }
+    border:1px gray solid;
+    text-align: right;
+    padding:5px;
+}
+body, th {
+    text-align: center;
+}
+table {
+    margin: 0 auto;
+}

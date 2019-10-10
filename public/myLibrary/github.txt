@@ -1,0 +1,7 @@
+git checkout branchName
+// to seclect the branch
+// use master branch to pull
+// use krisna branch to push
+
+git push -f
+// to force push 

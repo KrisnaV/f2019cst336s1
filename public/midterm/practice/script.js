@@ -26,7 +26,6 @@
 
             });//ajax
 
-
         });//document.ready
 
         function calculateTotal(){
