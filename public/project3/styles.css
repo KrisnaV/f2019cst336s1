@@ -1,0 +1,37 @@
+.headBand {
+    background-image:url("images/weather.jpg");
+    padding:8%;
+    margin: 0;
+}
+.heading {
+    padding: 3rem 4rem 3rem;
+    text-align: center;
+    color: blue;
+    margin: 0;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 5rem;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    margin: 10px;
+}
+#city {
+    font-size: 1.5rem;
+    text-align: center;
+}
+#btnSearch {
+    font-size: 1.5rem;
+    padding: 15px 20px 15px;
+    background-color: blue;
+    color: white; 
+    margin: 10px;
+    border-radius: 12px;
+    border: none;
+}
+#result {
+    font-size: 2rem;
+    justify-content: center;
+}
